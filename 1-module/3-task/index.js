@@ -4,8 +4,4 @@ function ucFirst(str) {
   } else {
     return "";
   }
-
-  // return str.includes(" ");
 }
-
-console.log(ucFirst(""));
