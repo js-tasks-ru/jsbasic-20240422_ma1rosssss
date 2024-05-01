@@ -1,3 +1,1 @@
-function sumSalary(salaries) {
-  // ваш код...
-}
+function sumSalary(salaries) {}
