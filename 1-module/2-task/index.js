@@ -10,12 +10,15 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
-  if (name.includes(" ") || name.length < 4 || !name) {
-    return false;
+  if (name !== null && name && name.length >= 4 && name.indexOf(" ") === -1) {
+    return true;
   }
-
-  return true;
+  return false;
 }
+
+// return name !== null && name && name.length >= 4 && name.indexOf(" ") === -1;
+
+// return name !== null && !name && name.length >= 4 && name.indexOf(" ") === -1;
 
 function sayHello() {
   let userName = prompt("Введите ваше имя");
