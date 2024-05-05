@@ -1,3 +1,7 @@
 function camelize(str) {
-  // ваш код...
+  return str.replace(/-([a-z])/g, (match, offset) => {
+    return offset.toUpperCase();
+  });
 }
+
+console.log(camelize("-webkit-transition"));
