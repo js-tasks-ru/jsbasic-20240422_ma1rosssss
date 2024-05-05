@@ -3,5 +3,3 @@ function camelize(str) {
     return offset.toUpperCase();
   });
 }
-
-console.log(camelize("-webkit-transition"));
