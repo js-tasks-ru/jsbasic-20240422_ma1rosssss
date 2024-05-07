@@ -1,1 +1,3 @@
-function showSalary(users, age) {}
+function showSalary(users, age) {
+  // ваш код...
+}
